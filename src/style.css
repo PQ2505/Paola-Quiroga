@@ -31,7 +31,7 @@ header {
     margin-left: 2rem;
 }
 
-.menuHamb,
+.menu,
 header>button {
     display: none;
 }
@@ -67,6 +67,10 @@ section.info-two article.art-one h2 {
     font-size: 2.2rem;
     color: white;
 
+}
+
+.text-desktop {
+    display: none;
 }
 
 section.info-two article.art-one p {
@@ -249,4 +253,98 @@ footer>p {
     padding-bottom: 3rem;
     padding-top: 2rem;
     color: #8C8C94;
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 10rem;
+        margin-top: 6rem;
+    }
+
+    .menu {
+        display: block;
+        width: 40vw;
+    }
+
+    .menu-desk {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+
+    .menu-hamb {
+        display: none;
+    }
+
+    header>button {
+        display: block;
+        border: none;
+        border-radius: 23px;
+        width: 10vw;
+        height: 5vh;
+        background-color: var(--color-violet);
+        color: white;
+    }
+
+    .info-one {
+        display: flex;
+    }
+
+    .padel {
+        margin-top: -3rem;
+        margin-left: -1rem;
+    }
+
+    article.info-one div h1 {
+        margin-top: 2rem;
+        margin-right: 7rem;
+        margin-left: 11rem;
+        font-size: 3rem;
+    }
+
+    article.info-one div p {
+        margin-left: 9rem;
+        font-size: 1.1rem;
+        margin-right: 7rem;
+    }
+
+    article.info-one div button {
+        margin-right: 7rem;
+        border-radius: 23px;
+        width: 10vw;
+        height: 5vh;
+        background-color: var(--color-violet);
+        color: white;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+    .text-desktop {
+        display: block;
+    }
+
+    .art-one {
+        display: flex;
+        background-color: #8b48bf;
+    }
+
+    section.info-two article.art-one h2 {
+        padding-left: 7rem;
+        margin-top: 1.5rem;
+    }
+
+    section.info-two article.art-one p.text-desktop {
+        width: 50vw;
+        margin-top: 3rem;
+        font-size: 1.4rem;
+        margin-right: 7rem;
+        margin-left: 8rem;
+    }
 }
