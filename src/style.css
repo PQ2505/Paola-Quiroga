@@ -390,4 +390,85 @@ footer>p {
         color: #B3B2B7;
         margin-top: 1.5rem;
     }
+
+    .players {
+        display: flex;
+        flex-flow: wrap;
+
+    }
+
+    .sanyo,
+    .navarro,
+    .lebron {
+        display: block;
+        position: relative;
+        margin-top: 5rem;
+        background-color: #FAFAFA;
+        width: 32vw;
+        height: 27vh;
+        padding: 0px 32px;
+    }
+
+    .img-lebron,
+    .img-sanyo,
+    .img-navarro {
+        margin-left: 9rem;
+        width: 7vw;
+        height: 12vh;
+        margin-top: -3rem;
+    }
+
+    .title-lebron,
+    .title-sanyo,
+    .title-navarro {
+        text-align: center;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1.3rem;
+        color: var(--color-dark-blue);
+    }
+
+    .p-lebron,
+    .p-sanyo,
+    .p-navarro {
+        margin-left: 1rem;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 20px;
+        margin-right: 1rem;
+        color: #B9B9C1;
+    }
+
+    section.info-three button {
+        margin-top: 2rem;
+        margin-left: 39rem;
+        border: none;
+        border-radius: 21px;
+        width: 9vw;
+        height: 5vh;
+        background-color: var(--color-violet);
+        color: white;
+    }
+
+    .info-four {
+        background-color: var(--color-violet);
+        height: 29vh;
+    }
+
+    article.info-four h2 {
+        text-align: start;
+        margin-left: 10rem;
+        font-size: 2rem;
+    }
+
+    article.info-four button {
+        margin-bottom: 8.5rem;
+        margin-left: 50rem;
+        border: none;
+        border-radius: 21px;
+        width: 9vw;
+        height: 5vh;
+        background-color: white;
+        color: var(--color-violet);
+    }
 }
