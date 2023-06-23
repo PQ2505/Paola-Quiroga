@@ -185,13 +185,15 @@ section.info-three button {
     color: white;
     margin-top: 4rem;
     width: 100vw;
-    height: 63vh;
+    height: 70vh;
 }
 
 article.info-four h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 2em;
 }
 
 article.info-four button {
@@ -451,24 +453,84 @@ footer>p {
     }
 
     .info-four {
+        display: flex;
         background-color: var(--color-violet);
         height: 29vh;
     }
 
     article.info-four h2 {
+        display: flex;
+        margin-top: 0rem;
+        width: 50%;
+        font-size: 2.6rem;
         text-align: start;
-        margin-left: 10rem;
-        font-size: 2rem;
+        margin-left: 5rem;
     }
 
     article.info-four button {
-        margin-bottom: 8.5rem;
-        margin-left: 50rem;
+        margin-top: 4.5rem;
+        margin-left: 22rem;
         border: none;
         border-radius: 21px;
         width: 9vw;
         height: 5vh;
         background-color: white;
         color: var(--color-violet);
+    }
+
+    footer {
+        position: relative;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 5rem 6rem;
+        height: 29vh;
+    }
+
+    .logo-f {
+        position: absolute;
+        margin-bottom: 8rem;
+        margin-left: 9rem;
+        top: 4rem;
+        left: -2rem;
+    }
+
+    footer>form>input {
+        border: none;
+        border-radius: 20px;
+        height: 4vh;
+        width: 13vw;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    footer>form>button {
+        border-radius: 18px;
+        height: 4vh;
+        width: 4vw;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    footer>ul {
+        position: relative;
+        bottom: 1rem;
+        line-height: 2rem;
+        width: 50%;
+    }
+
+    .redes-sociales {
+        position: absolute;
+        width: 10rem;
+        left: 6rem;
+        bottom: 2rem;
+    }
+
+    footer>p {
+        order: -1;
+        color: #8c8c94;
+        font-size: 0.8rem;
+        position: absolute;
+        top: 11rem;
+        right: 8rem;
     }
 }
